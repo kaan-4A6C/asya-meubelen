@@ -207,7 +207,7 @@ jQuery(document).ready(function($){
     '</div>'+
     '<h2 id="firstHeading" class="firstHeading">Brooklyn</h2>'+
     '<div id="bodyContent">'+
-    '<p>277 Bedford Avenue, <br> Brooklyn, NY 11211, <br> New York, USA</p>'+
+    '<p>16a Industrieweg, <br> Culemborg, 4104AR, <br> Zuid-Holland, NL</p>'+
     '</div>'+
     '</div>';
 
