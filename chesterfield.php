@@ -35,10 +35,10 @@
     <body>
 
         <!--========== PROMO BLOCK ==========-->
-        <div class="g-fullheight--xs js__parallax-window" style="background: url(img/kaya.jpeg) 50% 0 no-repeat fixed; background-size: cover; background-position: center;">
+        <div class="g-fullheight--xs js__parallax-window" style="background: url(img/chesterfield2.jpg) 50% 0 no-repeat fixed; background-size: cover; background-position: center;">
             <div class="g-container--md g-ver-center--xs g-text-center--xs">
                 <div class="g-margin-b-70--xs">
-                    <h1 class="g-font-size-55--sm g-font-size-70--lg g-font-family--playfair g-color--white g-margin-b-20--xs g-margin-b-40--sm">Kaya</h1>
+                    <h1 class="g-font-size-55--sm g-font-size-70--lg g-font-family--playfair g-color--white g-margin-b-20--xs g-margin-b-40--sm">Chesterfield</h1>
                 </div>
             </div>
             <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">

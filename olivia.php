@@ -35,10 +35,10 @@
     <body>
 
         <!--========== PROMO BLOCK ==========-->
-        <div class="g-fullheight--xs js__parallax-window" style="background: url(img/kaya.jpeg) 50% 0 no-repeat fixed; background-size: cover; background-position: center;">
+        <div class="g-fullheight--xs js__parallax-window" style="background: url(img/olivia.jpg) 50% 0 no-repeat fixed; background-size: cover; background-position: center;">
             <div class="g-container--md g-ver-center--xs g-text-center--xs">
                 <div class="g-margin-b-70--xs">
-                    <h1 class="g-font-size-55--sm g-font-size-70--lg g-font-family--playfair g-color--white g-margin-b-20--xs g-margin-b-40--sm">Kaya</h1>
+                    <h1 class="g-font-size-55--sm g-font-size-70--lg g-font-family--playfair g-color--white g-margin-b-20--xs g-margin-b-40--sm">Olivia</h1>
                 </div>
             </div>
             <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
@@ -94,11 +94,11 @@
                         <span class="g-display-block--xs g-font-size-13--sm g-letter-spacing--3 g-margin-b-25--xs">01</span>
                         <h2 class="g-font-size-26--xs g-font-family--playfair">Family Law</h2>
                         <ul class="list-unstyled g-ul-li-tb-3--xs">
-                            <li><a href="http://keenthemes.com/">Divorce</a></li>
-                            <li><a href="http://keenthemes.com/">Asse Distribution</a></li>
-                            <li><a href="http://keenthemes.com/">Alimony &amp; Child Support</a></li>
-                            <li><a href="http://keenthemes.com/">Grandparent &amp; Relative Custody</a></li>
-                            <li><a href="http://keenthemes.com/">Custody &amp; Timesharing</a></li>
+                            <li><a href="#">Divorce</a></li>
+                            <li><a href="#">Asse Distribution</a></li>
+                            <li><a href="#">Alimony &amp; Child Support</a></li>
+                            <li><a href="#">Grandparent &amp; Relative Custody</a></li>
+                            <li><a href="#">Custody &amp; Timesharing</a></li>
                         </ul>
                     </div>
                 </div>
@@ -108,11 +108,11 @@
                         <span class="g-display-block--xs g-font-size-13--sm g-letter-spacing--3 g-margin-b-25--xs">02</span>
                         <h2 class="g-font-size-26--xs g-font-family--playfair">Criminal Law</h2>
                         <ul class="list-unstyled g-ul-li-tb-3--xs">
-                            <li><a href="http://keenthemes.com/">Drug Offenses</a></li>
-                            <li><a href="http://keenthemes.com/">Weapons Offense</a></li>
-                            <li><a href="http://keenthemes.com/">Criminal Domestic Violence</a></li>
-                            <li><a href="http://keenthemes.com/">Sexual Offenses</a></li>
-                            <li><a href="http://keenthemes.com/">Misdemeanors</a></li>
+                            <li><a href="#">Drug Offenses</a></li>
+                            <li><a href="#">Weapons Offense</a></li>
+                            <li><a href="#">Criminal Domestic Violence</a></li>
+                            <li><a href="#">Sexual Offenses</a></li>
+                            <li><a href="#">Misdemeanors</a></li>
                         </ul>
                     </div>
                 </div>
@@ -122,11 +122,11 @@
                         <span class="g-display-block--xs g-font-size-13--sm g-letter-spacing--3 g-margin-b-25--xs">03</span>
                         <h2 class="g-font-size-26--xs g-font-family--playfair">Corporate Law</h2>
                         <ul class="list-unstyled g-ul-li-tb-3--xs">
-                            <li><a href="http://keenthemes.com/">Articles of association</a></li>
-                            <li><a href="http://keenthemes.com/">Financial assistance</a></li>
-                            <li><a href="http://keenthemes.com/">Reconstruction (law)</a></li>
-                            <li><a href="http://keenthemes.com/">Say on pay</a></li>
-                            <li><a href="http://keenthemes.com/">Industrial democracy</a></li>
+                            <li><a href="#">Articles of association</a></li>
+                            <li><a href="#">Financial assistance</a></li>
+                            <li><a href="#">Reconstruction (law)</a></li>
+                            <li><a href="#">Say on pay</a></li>
+                            <li><a href="#">Industrial democracy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                         <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Identity &amp; Categories</p>
                         <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-font-family--playfair g-color--white">You are in Good Hands</h2>
                     </div>
-                    <a href="http://keenthemes.com/" class="text-uppercase s-btn s-btn-icon--md s-btn--primary-brd g-radius--50 g-padding-x-60--xs">Hire Us</a>
+                    <a href="#" class="text-uppercase s-btn s-btn-icon--md s-btn--primary-brd g-radius--50 g-padding-x-60--xs">Hire Us</a>
                 </div>
             </div>
         </div>

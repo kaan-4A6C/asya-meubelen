@@ -33,7 +33,7 @@
 
     <!-- Body -->
     <body>
-        <?php require_once '/partials/menu.php'; ?>
+        <?php require_once('partials/menu.php'); ?>
         <!--========== SWIPER SLIDER ==========-->
         <div class="s-swiper js__swiper-one-item">
             <!-- Swiper Wrapper -->
@@ -172,7 +172,7 @@
                     <article>
                         <a href="/kaya.php"><img class="img-responsive" src="img/kaya.jpeg" alt="Image"></a>
                         <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Kaya</a></h3>
+                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="kaya.php">Kaya</a></h3>
                         </div>
                     </article>
                     <!-- End News -->
@@ -180,10 +180,10 @@
                 <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
                     <!-- News -->
                     <article>
-                        <a href="#">
+                        <a href="azura.php">
                             <img class="img-responsive" src="img/azura.jpeg" alt="Image">
                             <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Azura</a></h3>
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="azura.php">Azura</a></h3>
                             </div>
                         </a>
                     </article>
@@ -192,10 +192,10 @@
                 <div class="col-sm-4">
                     <!-- News -->
                   <article>
-                    <a href="#">
+                    <a href="chesterfield.php">
                         <img class="img-responsive" src="img/chesterfield2.jpg" alt="Image">
                         <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Chesterfield</a></h3>
+                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="chesterfield.php">Chesterfield</a></h3>
                         </div>
                     </a>
                   </article>
@@ -204,10 +204,10 @@
                 <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
                     <!-- News -->
                     <article>
-                        <a href="#">
+                        <a href="como.php">
                             <img class="img-responsive" src="img/como.jpg" alt="Image">
                             <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Como</a></h3>
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="como.php">Como</a></h3>
                             </div>
                         </a>
                     </article>
@@ -216,10 +216,10 @@
                 <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
                     <!-- News -->
                     <article>
-                        <a href="#">
+                        <a href="sultan.php">
                             <img class="img-responsive" src="img/sultan.jpeg" alt="Image">
                             <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Sultan</a></h3>
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="sultan.php">Sultan</a></h3>
                             </div>
                         </a>
                     </article>
@@ -228,10 +228,10 @@
                 <div class="col-sm-4">
                     <!-- News -->
                     <article>
-                        <a href="#">
+                        <a href="olivia.php">
                             <img class="img-responsive" src="img/olivia.jpg" alt="Image">
                             <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Olivia</a></h3>
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="olivia.php">Olivia</a></h3>
                             </div>
                         </a>
                     </article>
@@ -241,18 +241,12 @@
         </div>
         <!-- End News -->
 
-        <!-- Google Map -->
-        <section class="s-google-map">
-            <div id="js__google-container" class="s-google-container g-height-400--xs"></div>
-        </section>
-        <!-- End Google Map -->
         <!--========== END PAGE CONTENT ==========-->
 
-        <?php require_once '/partials/footer.php'; ?>
+        <?php require_once('partials/footer.php'); ?>
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
-
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
         <!-- Vendor -->
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
