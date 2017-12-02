@@ -8,7 +8,7 @@
         <title>Asya Meubelen | Welkom</title>
         <meta name="keywords" content="Meubel groothandel" />
         <meta name="description" content="Groothandel in meubels">
-        <meta name="author" content="Kagan Dag">
+        <meta name="author" content="Kagan Dag Faried Abdul">
 
         <!-- Web Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
@@ -33,97 +33,7 @@
 
     <!-- Body -->
     <body>
-
-        <!--========== HEADER ==========-->
-        <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
-            <!-- Navbar -->
-            <div class="s-header__navbar">
-                <div class="s-header__container">
-                    <div class="s-header__navbar-row">
-                        <div class="s-header__navbar-row-col">
-                            <!-- Logo -->
-                            <div class="s-header__logo">
-                                <a href="#top" class="s-header__logo-link">
-                                    <h3>Asya Meubelen</h3>
-                                    <!-- <img class="s-header__logo-img s-header__logo-img-default" src="img/logo.png" alt="Megakit Logo">
-                                    <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo.png" alt="Megakit Logo"> -->
-                                </a>
-                            </div>
-                            <!-- End Logo -->
-                        </div>
-                        <div class="s-header__navbar-row-col">
-                            <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                                <span class="s-header__trigger-icon"></span>
-                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-                                </svg>
-                            </a>
-                            <!-- End Trigger -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Navbar -->
-
-            <!-- Overlay -->
-            <div class="s-header-bg-overlay js__bg-overlay">
-                <!-- Nav -->
-                <nav class="s-header__nav js__scrollbar">
-                    <div class="container-fluid">
-                      <!-- Menu List -->
-                      <ul class="list-unstyled s-header__nav-menu">
-                          <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">Over ons</a></li>
-                          <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Service</a></li>
-                          <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a></li>
-                          <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contact</a></li>
-                      </ul>
-                      <!-- End Menu List -->
-                        <!-- Menu List -->
-                        <ul class="list-unstyled s-header__nav-menu">
-                          <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Banken op maat</a></li>
-                          <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Prijzen</a></li>
-                          <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_lawyer.html">Lawyer</a></li>
-                        </ul>
-                        <!-- End Menu List -->
-
-                    </div>
-                </nav>
-                <!-- End Nav -->
-
-                <!-- Action -->
-                <!-- <ul class="list-inline s-header__action s-header__action--lb">
-                    <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
-                </ul> -->
-                <!-- End Action -->
-
-                <!-- Action -->
-                <ul class="list-inline s-header__action s-header__action--rb">
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://nl-nl.facebook.com/asyaoutletmeubelen/">
-                            <i class="g-padding-r-5--xs ti-facebook"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="#">
-                            <i class="g-padding-r-5--xs ti-twitter"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="#">
-                            <i class="g-padding-r-5--xs ti-instagram"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
-                <!-- End Action -->
-            </div>
-            <!-- End Overlay -->
-        </header>
-        <!--========== END HEADER ==========-->
-
+        <?php require_once '/partials/menu.php'; ?>
         <!--========== SWIPER SLIDER ==========-->
         <div class="s-swiper js__swiper-one-item">
             <!-- Swiper Wrapper -->
@@ -138,18 +48,6 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/chicago.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                                <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">De Beste groothandel</h2>
-                            </div>
-                            <a class="js__popup__youtube" href="#" title="Intro Video">
-                                <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/olivia.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
@@ -263,7 +161,6 @@
             </div>
         </div>
         <!-- End Culture -->
-
         <!-- News -->
         <div class="container g-padding-y-80--xs g-padding-y-80--sm">
             <div class="g-text-center--xs g-margin-b-80--xs">
@@ -273,9 +170,9 @@
                 <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
                     <!-- News -->
                     <article>
-                        <a href=""><img class="img-responsive" src="img/6.jpeg" alt="Image"></a>
+                        <a href="/kaya.php"><img class="img-responsive" src="img/kaya.jpeg" alt="Image"></a>
                         <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Item</a></h3>
+                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Kaya</a></h3>
                         </div>
                     </article>
                     <!-- End News -->
@@ -283,50 +180,60 @@
                 <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
                     <!-- News -->
                     <article>
-                        <img class="img-responsive" src="img/azura.jpeg" alt="Image">
-                        <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Item</a></h3>
-                        </div>
+                        <a href="#">
+                            <img class="img-responsive" src="img/azura.jpeg" alt="Image">
+                            <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Azura</a></h3>
+                            </div>
+                        </a>
                     </article>
                     <!-- End News -->
                 </div>
                 <div class="col-sm-4">
                     <!-- News -->
-                    <article>
+                  <article>
+                    <a href="#">
                         <img class="img-responsive" src="img/chesterfield2.jpg" alt="Image">
                         <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Item</a></h3>
+                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Chesterfield</a></h3>
                         </div>
+                    </a>
+                  </article>
+                    <!-- End News -->
+                </div>
+                <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
+                    <!-- News -->
+                    <article>
+                        <a href="#">
+                            <img class="img-responsive" src="img/como.jpg" alt="Image">
+                            <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Como</a></h3>
+                            </div>
+                        </a>
                     </article>
                     <!-- End News -->
                 </div>
                 <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
                     <!-- News -->
                     <article>
-                        <img class="img-responsive" src="img/como.jpg" alt="Image">
-                        <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Item</a></h3>
-                        </div>
-                    </article>
-                    <!-- End News -->
-                </div>
-                <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
-                    <!-- News -->
-                    <article>
-                        <img class="img-responsive" src="img/kaya.jpeg" alt="Image">
-                        <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Item</a></h3>
-                        </div>
+                        <a href="#">
+                            <img class="img-responsive" src="img/sultan.jpeg" alt="Image">
+                            <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Sultan</a></h3>
+                            </div>
+                        </a>
                     </article>
                     <!-- End News -->
                 </div>
                 <div class="col-sm-4">
                     <!-- News -->
                     <article>
-                        <img class="img-responsive" src="img/olivia.jpg" alt="Image">
-                        <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
-                            <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Item</a></h3>
-                        </div>
+                        <a href="#">
+                            <img class="img-responsive" src="img/olivia.jpg" alt="Image">
+                            <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-25--xs g-padding-y-25--xs">
+                                <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="#">Olivia</a></h3>
+                            </div>
+                        </a>
                     </article>
                     <!-- End News -->
                 </div>
@@ -341,53 +248,7 @@
         <!-- End Google Map -->
         <!--========== END PAGE CONTENT ==========-->
 
-        <!--========== FOOTER ==========-->
-        <footer class="g-bg-color--dark">
-            <!-- Links -->
-            <div class="g-hor-divider__dashed--white-opacity-lightest">
-                <div class="container g-padding-y-80--xs">
-                    <div class="row">
-                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <!-- <li><a class="g-font-size-15--xs g-color--white-opacity" href="index.html">Home</a></li> -->
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Over ons</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Banken op maat</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Prijzen</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://nl-nl.facebook.com/asyaoutletmeubelen/">Facebook</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Instagram</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Privacy Policy</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Terms &amp; Conditions</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                            <h3 class="g-font-size-18--xs g-color--white">Asya Meubelen</h3>
-                            <p class="g-color--white-opacity">We are a creative studio focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Links -->
-
-            <!-- Copyright -->
-            <div class="container g-padding-y-50--xs">
-                <div class="row">
-                    <div class="col-xs-12 g-text-right--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://kaandag.com">Kagan Dag </a> Theme Powered by: <a target="_blank" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
-            </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+        <?php require_once '/partials/footer.php'; ?>
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
