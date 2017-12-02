@@ -41,22 +41,16 @@
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/28.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Lorem ipsum dolor</h1>
+                            <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Asya Meubelen</h1>
                         </div>
-                        <a class="js__popup__youtube" href="#" title="Intro Video">
-                            <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                        </a>
                     </div>
                 </div>
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/olivia.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
                             <div class="g-margin-b-30--xs">
-                                <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">De Beste groothandel</h2>
+                                <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Asya Meubelen</h2>
                             </div>
-                            <a class="js__popup__youtube" href="#" title="Intro Video">
-                                <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                            </a>
                         </div>
                     </div>
                 </div>

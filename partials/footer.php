@@ -38,7 +38,7 @@
     <div class="container g-padding-y-50--xs">
         <div class="row">
             <div class="col-xs-12 g-text-right--xs">
-                <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://kaandag.com">Kagan Dag </a> Theme Powered by: <a target="_blank" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Theme Powered by: <a target="_blank" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
             </div>
         </div>
     </div>
