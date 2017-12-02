@@ -27,7 +27,7 @@
         <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     </head>
 
@@ -146,7 +146,7 @@
                     </div>
                     <div class="col-md-4 col-md-offset-1">
                         <p class="g-font-size-18--xs">We aim high at being focused on building relationships with our clients and community. Using our creative gifts drives this foundation. The time has come to bring those ideas and plans to life. This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
-                        <p class="g-font-size-18--xs">Now that your brand is all dressed up and ready to party, it's time to release it to the world. By the way, let's celebrate already.</p>
+                        <p class="g-font-size-18--xs">Now that your brand is all dressed up and ready to party, it's time to release it to the world. By the way, let's celebrate already.</p>                        
                     </div>
                 </div>
             </div>
