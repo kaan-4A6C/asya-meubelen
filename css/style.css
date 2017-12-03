@@ -6,12 +6,7 @@
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
 .input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body{color:#222;background:#f5f5f5;font-family:Lato, sans-serif;font-weight:300;line-height:1.6;font-size:16px;}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{font-family:Lato, sans-serif;font-weight:700;}
+h1,h2,h3,h4,h5,h6{font-family:Lato, sans-serif;font-weight:700;}
 a{color:#222;-webkit-transition:300ms;-moz-transition:300ms;-o-transition:300ms;transition:300ms;}
 hr{border-top:1px solid #e5e5e5;border-bottom:1px solid #fff;}
 .btn{font-weight:400;}
@@ -409,13 +404,11 @@ img.author-box-image{max-width:110px;height:auto;}
 }
 @media only screen and (max-width:991px){#last-car-img{margin-bottom:30px;}
 }
-
 .cl-title{font-size-adjust:auto;font-size:4.1em;margin-top:30vh;}
 .cl-title a{text-decoration:none;display:inline-block;position:relative;font-family:Arial;font-weight:bold;padding:0 0 5px 0;color:#333333;}
 .cl-title a:after{content:'';position:absolute;height:2px;width:100%;left:0;bottom:0;visibility:hidden;background-color:#00b29e;-webkit-transition:all .1s ease;transition:all 0.3s ease;-webkit-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);}
 .cl-title a:hover:after{visibility:visible;-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}
 .madeby{position:fixed;bottom:3px;transition:300ms;}
-/*.madeby:hover{color:green}*/
 @media only screen and (max-width:400px){.cl-title{font-size:3.84em;}
 }
 .openingstijden{display:inline-block;width:95px;}

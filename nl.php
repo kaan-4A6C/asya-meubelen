@@ -15,8 +15,11 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="slider/src/css/swipebox.min.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/jquery.backstretch.min.js" charset="utf-8"></script>
+    <script src="slider/src/js/jquery.swipebox.min.js" charset="utf-8"></script>
+    <script src="slider/src/js/jquery.swipebox.min.js" charset="utf-8"></script>
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -27,7 +30,13 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/logo.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/logo.png">
     <link rel="apple-touch-icon" href="images/logo.png">
+    <script type="text/javascript">
+;( function( $ ) {
 
+	$( '.swipebox' ).swipebox();
+
+} )( jQuery );
+</script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             'use strict';
@@ -185,11 +194,18 @@
                     </div>
                 </div>
             </div>
-            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/sultan.jpeg" alt="Bank">
-            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/kaya.jpeg" alt="Bank">
-            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/12.jpeg" alt="Bank">
-            <img id="last-car-img" class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/28.jpg" alt="Bank">
-
+            <a href="images/sultan.jpeg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/sultan.jpeg" alt="Bank">
+            </a>
+            <a href="images/kaya.jpeg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/kaya.jpeg" alt="Bank">
+            </a>
+            <a href="images/12.jpeg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/12.jpeg" alt="Bank">
+            </a>
+            <a href="images/28.jpg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/28.jpg" alt="Bank">
+            </a>
             <!-- <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(4).JPG" alt="Auto">
             <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(12).JPG" alt="Auto"> -->
 
@@ -204,6 +220,7 @@
         </section>
         <section id="testimonial-carousel" class="divider-section">
             <div class="gap"></div>
+
             <div class="container">
                 <div class="row">
                     <div class="center gap fade-down section-heading">
@@ -289,7 +306,7 @@
                     <div class="col-md-4 col-sm-4 col-xs-6">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
-                            <h1><span class="counter">4</span></h1>
+                            <h1><span class="counter">3</span></h1>
                             <h3>Weken levertijd</h3>
                         </div>
                     </div>
@@ -320,150 +337,7 @@
                     <hr>
                 </div>
                 <div class="gap"></div>
-                <div id="pricing-table1" class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <h3>Verplicht</h3>
-                        <label class="price-table">Administratiekosten (eenmalig)</label><span> Gratis </span><br>
-                        <label class="price-table">Officieel CBR-praktijkexamen</label><span> € 245</span><br>
-                        <h3>Losse pakketten</h3>
-                        <label class="price-table">1 uur</label><span> € 42</span><br>
-                        <label class="price-table">10 uur</label><span> € 420</span><br>
-                        <label class="price-table">20 uur</label><span> € 840</span><br>
-                        <label class="price-table">30 uur</label><span> € 1230</span><br>
-
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <h3>Optioneel</h3>
-                        <label class="price-table">Intakeles</label><span> Gratis *</span><br>
-                        <label class="price-table">RIS-boekje </label><span> € 22</span><br>
-                        <label class="price-table">Losse les van 60 minuten </label><span> € 42</span><br>
-                        <label class="price-table">TTT (tussentijdse toets) </label><span> € 215</span><br>
-                        <label class="price-table">BNOR-examen </label><span> € 270</span><br>
-                        <label class="price-table">Officieel CBR-faalangstexamen </label><span> € 270</span><br>
-                        <h3>Spoedcursussen</h3>
-                        <label class="price-table">15 uur + EV + CBR Examen</label><span> € 900</span><br>
-                        <label class="price-table">20 uur + EV + CBR Examen</label><span> € 1100</span><br>
-                        <label class="price-table">25 uur + EV + CBR Examen</label><span> € 1330</span><br>
-                    </div><br>
-                    <div class="col-md-12">
-                        <h5>* mits je de opleiding bij ons afrond, anders word er 42 euro in rekening gebracht.</h5>
-                    </div>
-                </div>
-                <br>
-                <div id="pricing-table" class="row">
-                    <div class="col-md-12">
-                        <h3 class="text-center">Pakketten</h3><hr>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 flip-in">
-                        <ul class="plan plan1">
-                            <li class="plan-name">
-                                <h3>Pakket A</h3>
-                            </li>
-                            <li class="plan-price">
-                                <div>
-                                    <span class="price"><sup>€</sup>1695*</span>
-                                </div>
-                            </li>
-                            <li>
-                                <strong>30 UUR</strong> les
-                            </li>
-                            <li>
-                                <strong>Risboekje</strong>
-                            </li>
-                            <li>
-                                <strong> Tussentijdse toets</strong>
-                            </li>
-                            <li>
-                                <strong>Examen</strong>
-                            </li>
-                            <!-- <li class="plan-action">
-                                <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-                            </li> -->
-                        </ul>
-                    </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-4 col-sm-4 col-xs-12 flip-in">
-                        <ul class="plan plan2 featured">
-                            <li class="plan-name">
-                                <h3>Pakket B</h3>
-                            </li>
-                            <li class="plan-price">
-                                <div>
-                                    <span class="price"><sup>€</sup>1950*</span>
-                                </div>
-                            </li>
-                            <li>
-                                <strong>35 UUR</strong> les
-                            </li>
-                            <li>
-                                <strong>Risboekje</strong>
-                            </li>
-                            <li>
-                                <strong> Tussentijdse toets</strong>
-                            </li>
-                            <li>
-                                <strong>Examen</strong>
-                            </li>
-                            <!-- <li class="plan-action">
-                                <a href="#" class="btn btn-outlined btn-primary btn-md">Signup</a>
-                            </li> -->
-                        </ul>
-                    </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-4 col-sm-4 col-xs-12 flip-in">
-                        <ul class="plan plan3">
-                            <li class="plan-name">
-                                <h3>Pakket C</h3>
-                            </li>
-                            <li class="plan-price">
-                                <div>
-                                    <span class="price"><sup>€</sup>2135*</span>
-                                </div>
-                            </li>
-                            <li>
-                                <strong>40 UUR</strong> les
-                            </li>
-                            <li>
-                                <strong>Risboekje</strong>
-                            </li>
-                            <li>
-                                <strong> Tussentijdse toets</strong>
-                            </li>
-                            <li>
-                                <strong>Examen</strong>
-                            </li>
-                            <!-- <li class="plan-action">
-                                <a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-                            </li> -->
-                        </ul>
-                    </div>
-                    <div class="col-md-12">
-                        <h5>* betalen in 2 delen mogelijk</h5>
-                    </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-6">
-                        <h3>Lestijden</h3>
-                        <p>
-                            Naar werk of school? Onze rijlessen beginnen al om 07.00 dus je hoeft er geen afspraken voor te verzetten en je wordt netjes in de regio afgezet waar je maar wilt. Op doordeweekse dagen kun je lessen tussen 07.00 en 18.00 en op zaterdag van 08.00 tot
-                            14.00.
-                        </p>
-                        <p>
-                            Een lesuur duurt bij ons altijd 60 minuten. Je kunt per rijles betalen of een pakket nemen. Met een intake-les kan ik inschatten hoeveel rijlessen je ongeveer nodig hebt om je examen te halen. Voor je rijbewijs moet je eerst je theoriecertificaat halen
-                            en dan je praktijkexamen doen. Je theorie-examen moet je zelf aanvragen op de website van het CBR. Wij kunnen hem ook voor je inplannen, dat kost € 45.
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <br>
-                        <p>
-                            Zenuwachtig voor je praktijkexamen? Met een tussentijdse toets (TTT) haal je misschien wat druk van de ketel. In deze toets doe je alvast je bijzondere manoeuvres, zoals de stop-opdracht, de parkeeropdracht en de omkeeropdracht. Slaag je daarvoor, dan
-                            hoef je dat tijdens je praktijkexamen niet meer te doen. Maar let op: ook voor de tussentijdse toets moet je al een theoriecertificaat hebben gehaald.</p>
-                        <p>
-                            Als je bang bent dat je echt helemaal dichtklapt is het ook mogelijk om een faalangstexamen te doen. Je moet dan natuurlijk nog steeds goed rijden, maar er wordt wat meer tijd voor uitgetrokken en je krijgt de kans op een ‘time out’: dan kun je het examen
-                            stopzetten als het even niet meer gaat. Wanneer je 4 keer zakt voor je praktijkexamen kom je automatisch uit bij een BNOR-examen (Bureau Nader Onderzoek Rijvaardigheid), ook wel staatsexamen genoemd.
-                        </p>
-                    </div>
-                    <!--/.col-md-3-->
-                </div>
+                hier komt nog tekst
                 <div class="gap"></div>
             </div>
         </section>
@@ -532,7 +406,7 @@
                     </div>
                     <!--/.col-md-3-->
 
-                    <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-6">
+                    <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6">
                         <h4>Asya meubelen</h4>
                         <div>
                             <ul class="arrow">
@@ -543,9 +417,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <p><span class=""></span>Asya meubelen<br/>
-                        <span class=""></span>Culemborg, Zuid-Holland<br/>
-                        <span class=""></span> 4104AR Culemborg <br><br> -->
+
                     <!--/.col-md-3-->
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <h4>Adres</h4>
@@ -558,7 +430,7 @@
                     </div>
                     <!--/.col-md-3-->
 
-                    <div class="col-md-3 col-sm-12 col-xs-11 text-center">
+                    <div class="col-md-4 col-sm-12 col-xs-11 text-center">
                         <div class="fb-page" data-href="https://www.facebook.com/hsmeubelen/" data-tabs="timeline" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hsmeubelen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hsmeubelen/">Asya meubelen</a></blockquote></div>                    <!--/.col-md-3-->
                     </div>
                 </div>
@@ -581,6 +453,7 @@
                 </div>
             </div>
         </footer>
+
         <!--/#footer-->
         </div>
         <script src="js/zenscroll.js" charset="utf-8"></script>
