@@ -17,7 +17,8 @@ hr{border-top:1px solid #e5e5e5;border-bottom:1px solid #fff;}
 .btn{font-weight:400;}
 .btn-transparent{border:3px solid #fff;background:transparent;color:#fff;}
 .btn-transparent:hover{border-color:rgba(255, 255, 255, 0.5);}
-a:hover{color:#00b29e;text-decoration:none;outline:none;}
+a:hover,
+a:focus{color:#d9534f;text-decoration:none;outline:none;}
 .dropdown-menu{margin-top:-1px;min-width:180px;}
 body > section{padding:50px 0;}
 .embed-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;}
@@ -409,12 +410,7 @@ img.author-box-image{max-width:110px;height:auto;}
 }
 @media only screen and (max-width:991px){#last-car-img{margin-bottom:30px;}
 }
-
 .cl-title{font-size-adjust:auto;font-size:4.1em;margin-top:30vh;}
 .cl-title a{text-decoration:none;display:inline-block;position:relative;font-family:Arial;font-weight:bold;padding:0 0 5px 0;color:#333333;}
 .cl-title a:after{content:'';position:absolute;height:2px;width:100%;left:0;bottom:0;visibility:hidden;background-color:#00b29e;-webkit-transition:all .1s ease;transition:all 0.3s ease;-webkit-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);}
 .cl-title a:hover:after{visibility:visible;-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1);}
-.madeby{position:fixed;bottom:3px;transition:300ms;}
-/*.madeby:hover{color:green}*/
-@media only screen and (max-width:400px){.cl-title{font-size:3.84em;}
-}

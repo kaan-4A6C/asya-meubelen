@@ -12,15 +12,12 @@
 <body>
     <div class="col-md-12 text-left">
         <br>
-        <h2>Rijschool Durmus Dag</h2>
+        <h2 class="text-left"><a href="/">Rijschool Durmus Dag</a></h2>
     </div>
     <div class="container">
         <div class="row">
-            <h1 class="col-md-12 cl-title text-center"><a href="/nl">Nederlands </a> <br><a href="/en"> English </a></h1>
+            <h1 class="col-md-12 cl-title text-center"><a href="/">Oeps!<br><small>Deze pagina bestaat niet!</small></a></h1>
         </div>
-    </div>
-    <div class="col-md-12 text-center madeby">
-        <a href="http://www.kaandag.com" target="_blank"><i>Made by: Kagan Dag</i></a>
     </div>
     <!-- bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
