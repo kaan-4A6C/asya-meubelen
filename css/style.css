@@ -418,3 +418,4 @@ img.author-box-image{max-width:110px;height:auto;}
 /*.madeby:hover{color:green}*/
 @media only screen and (max-width:400px){.cl-title{font-size:3.84em;}
 }
+.openingstijden{display:inline-block;width:95px;}

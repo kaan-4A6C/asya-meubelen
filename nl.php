@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Rijschool durmusdag</title>
+    <title>Asya meubelen</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/pe-icons.css" rel="stylesheet">
@@ -23,18 +23,18 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
 
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             'use strict';
             jQuery('body').backstretch([
-                "images/img/auto(1).jpg",
-                "images/img/auto(6).jpg",
-                "images/img/auto(14).JPG"
+                "images/12.jpeg",
+                "images/kaya.jpeg",
+                "images/28.jpeg"
             ], {
                 duration: 5000,
                 fade: 1200,
@@ -45,8 +45,8 @@
                 controls: false,
                 scrollwheel: false,
                 markers: [{
-                    latitude: 52.1027969,
-                    longitude: 5.0367955,
+                    latitude: 51.9411522,
+                    longitude: 5.2178798,
                     icon: {
                         image: "images/marker.png",
                         iconsize: [44, 44],
@@ -60,8 +60,8 @@
                     iconanchor: [12, 46],
                     infowindowanchor: [12, 0]
                 },
-                latitude: 52.1027969,
-                longitude: 5.0367955,
+                latitude: 51.9411522,
+                longitude: 5.2178798,
                 zoom: 14
             });
         });
@@ -93,15 +93,15 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#main-slider"><h1>Durmusdag</h1></a>
+                <a class="navbar-brand" href="#main-slider"><h1>Asya meubelen</h1></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#main-slider">Home</a></li>
-                    <li><a href="#instructeur">Instructeur</a></li>
-                    <li><a href="#auto">Auto</a></li>
+                    <li><a href="#instructeur">Over ons</a></li>
+                    <li><a href="#auto">Modellen</a></li>
                     <!-- <li><a href="#testimonial-carousel">Gastenboek</a></li> -->
-                    <li><a href="#tarieven">Tarieven</a></li>
+                    <li><a href="#tarieven">Onderhoud</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -117,10 +117,10 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                    <h2 class=" title boxed animation animated-item-1 fade-down">AUTORIJSCHOOL DURMUS DAG!</h2>
+                                    <h2 class=" title boxed animation animated-item-1 fade-down">Welkom bij Asya meubelen!</h2>
                                     <p class=" subitle boxed animation animated-item-2 fade-up">Onze rijschool begeleidt je zonder poespas naar je rijbewijs. <br> Ik ben Durmus en ik ben de vaste instructeur tijdens jouw lessen.</p>
                                     <br>
-                                    <a class="btn btn-md animation bounce-in" href="#contact">Schrijf je nu in!</a>
+                                    <a class="btn btn-md animation bounce-in" href="#contact">Lees meer</a>
 
                                 </div>
                             </div>
@@ -180,42 +180,18 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Auto</h2>
+                            <h2 class="main-title">Modellen</h2>
                             <hr>
                         </div>
                     </div>
                 </div>
             </div>
-            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/img/auto(1).jpg" alt="Auto">
-            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/img/auto(6).jpg" alt="Auto">
-            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/img/auto(4).JPG" alt="Auto">
-            <img id="last-car-img" class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/img/auto(10).JPG" alt="Auto">
+            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/sultan.jpeg" alt="Bank">
+            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/kaya.jpeg" alt="Bank">
+            <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/12.jpeg" alt="Bank">
+            <img id="last-car-img" class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/28.jpg" alt="Bank">
             <!-- <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(4).JPG" alt="Auto">
             <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(12).JPG" alt="Auto"> -->
-
-            <div class="col-md-4 col-sm-6">
-                <br>
-                Voor een goede, veilige leeromgeving is de auto heel belangrijk. Je krijgt les in een degelijke
-                Peugeot 308 HDi die aan alle veiligheideisen voldoet. Zo heeft hij acht airbags,
-                ABS (antiblokkeersysteem), ESP (electronic stability program), airco en nog meer snufjes
-                die jou met een gerust gevoel de weg op laten gaan. Niet alleen fijn voor jou en de instructeur,
-                maar ook nog eens voor het milieu.
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <br>
-                De lessen worden in een gezellige, rustige sfeer gegeven. Ik bouw langzaam op
-                van makkelijke naar moeilijke verkeerssituaties zodat je het rijden steeds beter gaat
-                beheersen. De lessen krijg je volgens de RIS-methode (Rijopleiding In Stappen), dit houdt in
-                dat je als leerling actief bij de les betrokken wordt waardoor je minder rijlessen nodig hebt
-                en je slagingskans ook nog eens aanzienlijk hoger ligt!
-            </div>
-            <div class="col-md-4 col-sm-8">
-                <br>
-                Elke cursist is anders, dus ik pas me altijd aan aan jouw persoonlijkheid en leerstijl zodat de
-                lessen leuk en leerzaam blijven. Eén ding is voor iedereen hetzelfde: je krijgt van het begin
-                tot het eind van de les mijn volle aandacht en je zult dus geen tijd verdoen met alleen maar
-                gezellige kletspraatjes.
-            </div>
 
             <!-- must stay! -->
             <div class="container-fluid">
@@ -231,9 +207,9 @@
             <div class="container">
                 <div class="row">
                     <div class="center gap fade-down section-heading">
-                        <h2 class="main-title">Wat andere ervan vinden!</h2>
+                        <h2 class="main-title">Wat andere ervan vonden!</h2>
                         <hr>
-                        <p>De ervaringen van andere geslaagden!</p>
+                        <!-- <p>De ervaringen van andere geslaagden!</p> -->
                         <div class="gap"></div>
                     </div>
                     <div class=' col-md-12 fade-up'>
@@ -283,9 +259,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Voeg hier je ervaring toe aan het gastenboek!</h2>
+                            <h2 class="main-title">Voeg hier je ervaring toe aan het gastenboek</h2>
                             <hr>
-                            <p>Vul het onderstaande formulier in!</p>
+                            <p>Laat een leuke reactie achter!</p>
                         </div>
                     </div>
                 </div>
@@ -313,8 +289,8 @@
                     <div class="col-md-4 col-sm-4 col-xs-6">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
-                            <h1><span class="counter">64500</span></h1>
-                            <h3>Uren gereden</h3>
+                            <h1><span class="counter">4</span></h1>
+                            <h3>Weken levertijd</h3>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6">
@@ -328,7 +304,7 @@
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class=" pe-7s-light bounce-in"></span></span>
                             <h1><span class="counter">300</span> +</h1>
-                            <h3>Geslaagde leerlingen</h3>
+                            <h3>Tevreden klanten</h3>
                         </div>
                     </div>
                 </div>
@@ -508,19 +484,21 @@
                 <div class="row">
                     <div class="col-md-4 fade-up">
                         <h3>Contact Informatie</h3>
-                        <p><span class=""></span>Autorijschool Durmus dag<br/>
-                            <span class=""></span>Operettelaan 333<br/>
-                            <span class=""></span> 3543BR Utrecht <br><br>
-                            <span class=""></span>info@durmusdag.nl <br/>
-                            <span class=""></span>06 117 239 04 <br><br>
-                            <span class=""></span>KVK nr: 56422644 <br/>
+                        <p><span class=""></span>Asya meubelen<br/>
+                            <span class=""></span>Culemborg, Zuid-Holland<br/>
+                            <span class=""></span> 4104AR Culemborg <br><br>
+                            <span class=""></span><i class="fa fa-phone"></i> 0345 505 948 <br>
+                            <span class=""></span>hs-meubelen@live.nl <br/><br>
+                            <span class=""></span>KVK: 56422644 <br/>
                             <span class=""></span>Rek nr: NL55 INGB 0006 1304 97 <br><br>
-                            <h3>Machtigen met DigiD</h3>
-                            Voordat de rijschool het rijexamen of een tussentijdse toets voor je gaat aanvragen moet
-                            je daar eerst toestemming voor geven. Zo ontvang je direct bericht van het CBR als de rijschool
-                            het examen voor je heeft gereserveerd of als het examen is verschoven.
+                            <h3>Openingstijden</h3>
+                            <span><b class="openingstijden">Maandag:  </b> 08.00 - 18.30</span><br>
+                            <span><b class="openingstijden">Dinsdag:  </b> 08.00 - 18.30</span><br>
+                            <span><b class="openingstijden">Woensdag: </b> 08.00 - 18.30</span><br>
+                            <span><b class="openingstijden">Donderdag:</b> 08.00 - 18.30</span><br>
+                            <span><b class="openingstijden">Vrijdag:  </b> 08.00 - 18.30</span><br>
+                            <span><b class="openingstijden">Zaterdag: </b> 08.00 - 18.30</span>
                             <br><br>
-                            <a class="btn bnt-primary btn-outlined" href="https://www.cbr.nl/brochure.pp?id=91">Machtig ons bij het CBR</a>
                         </p>
                     </div>
                     <!-- col -->
@@ -548,37 +526,42 @@
 
     <div id="footer-wrapper">
         <section id="bottom" class="">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-4 col-xs-12 about-us-widget">
-                        <h4>Over Durmusdag</h4>
-                        <p>Met ruim zestien jaar ervaring heb ik besloten om een eigen rijschool op te richten. Door mijn passie voor dit vak heb ik een eigen stijl van lesgeven ontwikkeld</p>
+                    <div class="col-md-3  col-sm-4 col-xs-12 about-us-widget">
+                        <h4>Over Asya meubelen</h4>
+                        <p>Directe verkoop uit onze eigen meubel fabriek in Culemborg met oppervlakte van 1800 vierkante meter. Alle producten kunnen gelijk meegenomen worden.</p>
                     </div>
                     <!--/.col-md-3-->
 
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <h4>Durmus Dag</h4>
+                    <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-6">
+                        <h4>Asya meubelen</h4>
                         <div>
                             <ul class="arrow">
-                                <li><a href="voorwaarden">Algemene voorwaarden</a></li>
-                                <li><a href="https://www.cbr.nl/brochure.pp?id=91">Machtig ons bij het CBR</a></li>
+                                <li><a href="voorwaarden">Over ons</a></li>
+                                <li><a href="voorwaarden">Modellen</a></li>
+                                <li><a href="voorwaarden">Onderhoud</a></li>
+                                <li><a href="voorwaarden">Contact</a></li>
                             </ul>
                         </div>
                     </div>
+                    <!-- <p><span class=""></span>Asya meubelen<br/>
+                        <span class=""></span>Culemborg, Zuid-Holland<br/>
+                        <span class=""></span> 4104AR Culemborg <br><br> -->
                     <!--/.col-md-3-->
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <h4>Adres</h4>
                         <address>
-                            <strong>Utrecht</strong><br>
-                            Testlaan 123<br>
-                            Utrecht, 3543<br>
-                            <abbr title="Phone"><i class="fa fa-phone"></i></abbr> 06 12345678
+                            <strong>Culemborg</strong><br>
+                            4104AR Culemborg<br>
+                            Zuid-Holland<br>
+                            <abbr title="Phone"><i class="fa fa-phone"></i></abbr> 0345 505 948
                         </address>
                     </div>
                     <!--/.col-md-3-->
 
                     <div class="col-md-3 col-sm-12 col-xs-11 text-center">
-                        <div class="fb-page" data-href="https://www.facebook.com/RijschoolDurmusDag/" data-tabs="timeline" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RijschoolDurmusDag/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RijschoolDurmusDag/">Rijschool Durmus Dag</a></blockquote></div>                    <!--/.col-md-3-->
+                        <div class="fb-page" data-href="https://www.facebook.com/hsmeubelen/" data-tabs="timeline" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hsmeubelen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hsmeubelen/">Asya meubelen</a></blockquote></div>                    <!--/.col-md-3-->
                     </div>
                 </div>
             </div>
@@ -589,7 +572,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        &copy; 2017 Durmusdag. </a> Alle rechten voorbehouden
+                        &copy; Asya meubelen. &nbsp;</a> Alle rechten voorbehouden
                     </div>
                     <div class="col-sm-6">
                         <ul class="pull-right">
