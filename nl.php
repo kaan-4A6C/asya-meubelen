@@ -117,11 +117,10 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                    <h2 class=" title boxed animation animated-item-1 fade-down">Welkom bij Asya meubelen!</h2>
-                                    <p class=" subitle boxed animation animated-item-2 fade-up">Onze rijschool begeleidt je zonder poespas naar je rijbewijs. <br> Ik ben Durmus en ik ben de vaste instructeur tijdens jouw lessen.</p>
-                                    <br>
+                                    <h2 class=" title boxed animation animated-item-1 fade-down">Welkom bij Asya meubelen</h2><br>
+                                    <p class="subitle boxed animation animated-item-2 fade-up">De groothandel voor banken!</p>
+                                    <br><br><br>
                                     <a class="btn btn-md animation bounce-in" href="#contact">Lees meer</a>
-
                                 </div>
                             </div>
                         </div>
@@ -190,6 +189,7 @@
             <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/kaya.jpeg" alt="Bank">
             <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/12.jpeg" alt="Bank">
             <img id="last-car-img" class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/28.jpg" alt="Bank">
+
             <!-- <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(4).JPG" alt="Auto">
             <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(12).JPG" alt="Auto"> -->
 
@@ -478,7 +478,7 @@
                 <div class="center gap fade-down section-heading">
                     <h2 class="main-title">Contact</h2>
                     <hr>
-                    <p>Vul onderstaand formulier in om je aan te melden bij Autorijschool Durmus Dag.</p>
+                    <p>Vul onderstaand formulier in om ons een mail te sturen!</p>
                 </div>
                 <div class="gap"></div>
                 <div class="row">
@@ -488,9 +488,8 @@
                             <span class=""></span>Culemborg, Zuid-Holland<br/>
                             <span class=""></span> 4104AR Culemborg <br><br>
                             <span class=""></span><i class="fa fa-phone"></i> 0345 505 948 <br>
-                            <span class=""></span>hs-meubelen@live.nl <br/><br>
-                            <span class=""></span>KVK: 56422644 <br/>
-                            <span class=""></span>Rek nr: NL55 INGB 0006 1304 97 <br><br>
+                            <span class=""></span>hs-meubelen@live.nl <br/>
+                            <span class=""></span>KVK: 56422644 <br/><br>
                             <h3>Openingstijden</h3>
                             <span><b class="openingstijden">Maandag:  </b> 08.00 - 18.30</span><br>
                             <span><b class="openingstijden">Dinsdag:  </b> 08.00 - 18.30</span><br>
@@ -511,7 +510,6 @@
                             <input type="text" name="name" id="name" placeholder="Naam *" />
                             <input type="email" name="email" id="email" placeholder="Email *" />
                             <input type="tel" name="telefoonnummer" id="telefoonnummer" placeholder="Telefoonnummer *" />
-                            <input type="text" name="adres" id="adres" placeholder="Adres *" />
                             <textarea name="comments" id="comments" placeholder="Bericht "></textarea>
                             <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Verzend" />
                         </form>
