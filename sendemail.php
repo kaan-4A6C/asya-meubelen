@@ -8,7 +8,6 @@ function tommus_email_validate($email) { return filter_var($email, FILTER_VALIDA
 $name = $_POST['name'];
 $email = $_POST['email'];
 $tel_number = $_POST['telefoonnummer'];
-$address = $_POST['adres'];
 $comments = $_POST['comments'];
 
 
@@ -24,11 +23,6 @@ if(trim($name) == '') {
 
 } elseif(trim($tel_number) == '') {
 	exit('<div class="alert alert-danger">Attention! Please enter your phonenumber.</div>');
-} elseif(trim($address) == 'adres') {
-	exit('<div class="alert alert-danger">Attention! Please enter your adress.</div>');
-} elseif(trim($address) == '') {
-	exit('<div class="alert alert-danger">Attention! Please enter your adress.</div>');
-
 } elseif(trim($comments) == 'Message') {
 	exit('<div class="alert alert-danger">Attention! Please enter your message.</div>');
 } elseif(trim($comments) == '') {
@@ -39,11 +33,11 @@ if(trim($name) == '') {
 	exit('<div class="alert alert-danger">Attention! Please leave links as plain text.</div>');
 } if(get_magic_quotes_gpc()) { $comments = stripslashes($comments); }
 
-$email_address = 'kaani@live.nl';
+$email_address = 'asyameubel@hotmail.com';
 
 $e_subject = 'You\'ve been contacted by ' . $name . '.';
 $e_body = "Je hebt een bericht ontvangen van: $name \r\nNummer: $tel_number " . "\r\n";
-$e_content = "\r\nAdres: $address \r\n \"$comments\"" . "\r\n" . "\r\n";
+$e_content = "\r\n \"$comments\"" . "\r\n" . "\r\n";
 $e_reply = "You can contact $name via email, $email";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );

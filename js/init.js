@@ -113,6 +113,24 @@ jQuery(document).ready(function($) {
         });
         return false;
     });
+    $('#reviewForm').submit(function() {
+        var action = $(this).attr('action');
+        $("#message").slideUp(750, function() {
+            $('#reviewMessage').hide();
+            $('#submit').attr('disabled', 'disabled');
+            $.post(action, {
+                name: $('#reviewName').val(),
+                message: $('#reviewMessageInput').val()
+            }, function(data) {
+                document.getElementById('reviewMessage').innerHTML = data;
+                $('#reviewMessage').slideDown('slow');
+                $('#submit').removeAttr('disabled');
+                if (data.match('success') != null) $('#reviewForm').slideUp('slow');
+                $(window).trigger('resize');
+            });
+        });
+        return false;
+    });
 });
 jQuery(document).ready(function($) {
     'use strict';

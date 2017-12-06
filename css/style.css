@@ -397,7 +397,7 @@ img.author-box-image{max-width:110px;height:auto;}
 }
 .auto-img{padding-left:0 !important;padding-right:0!important;}
 .gastenboek-form{font-size:1.1em;resize:none;}
-.g-textarea{height:140px !important;}
+.g-textarea{height:160px !important;}
 .price-table{display:inline-block;width:250px;}
 @media only screen and (max-width:420px){.title{font-size:2.3em !important;}
 .subtitle{font-size:.95em !important;}

@@ -7,16 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Rijschool Durmus Dag</title>
+    <title>Asya meubelen</title>
 </head>
 <body>
     <div class="col-md-12 text-left">
         <br>
-        <h2>Rijschool Durmus Dag</h2>
+        <h2>Asya meubelen</h2>
     </div>
     <div class="container">
         <div class="row">
-            <h1 class="col-md-12 cl-title text-center"><a href="/nl">Nederlands </a> <br><a href="/en"> English </a></h1>
+            <h1 class="col-md-12 cl-title text-center"><a href="/nl">Nederlands </a> <br><a href="/nl"> English </a></h1>
         </div>
     </div>
     <div class="col-md-12 text-center madeby">

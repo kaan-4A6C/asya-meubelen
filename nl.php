@@ -102,6 +102,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
+                <!-- <a class="navbar-brand" href="#main-slider"><h1>Asya meubelen</h1></a> -->
                 <a class="navbar-brand" href="#main-slider"><h1>Asya meubelen</h1></a>
             </div>
             <div class="collapse navbar-collapse">
@@ -129,7 +130,7 @@
                                     <h2 class=" title boxed animation animated-item-1 fade-down">Welkom bij Asya meubelen</h2><br>
                                     <p class="subitle boxed animation animated-item-2 fade-up">De groothandel voor banken!</p>
                                     <br><br><br>
-                                    <a class="btn btn-md animation bounce-in" href="#contact">Lees meer</a>
+                                    <a class="btn btn-md animation bounce-in" href="#content-wrapper">Lees meer</a>
                                 </div>
                             </div>
                         </div>
@@ -150,50 +151,38 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Instructeur</h2>
+                            <h2 class="main-title">Over ons</h2>
                             <hr>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <h3>Lessen met ervaring!</h3>
                         <p>
-                            Nadat ik in 2002 mijn instructeursbewijs heb behaald, ben ik bij een bekende rijschool in Utrecht gaan werken. Daar heb ik bijna elf jaar ervaring opgedaan en veel kandidaten de vaardigheden en het vertrouwen bijgebracht om te slagen. De uitslagen van
-                            mijn rijlessen waren zo positief dat ik besloot om een eigen rijschool op te richten.
-                            <br><br> Van al die jaren lesgeven heb ik namelijk geleerd dat rijlessen beter en goedkoper kunnen en dat kwaliteit echt niet duur hoeft te zijn. Door mijn passie voor dit vak heb ik een eigen stijl van lesgeven ontwikkeld.
-                            Die beviel niet alleen goed bij mijn cursisten maar ook bij het CBR, waar ik zeer respectabele resultaten heb behaald. Tijdens mijn applicatie-examen behaalde ik bijvoorbeeld 101 van de 102 punten voor de juiste manier van
-                            lesgeven.
+                            Ons bedrijf is er een die zich internationaal vestigt, gespecialiseerd is in design en in het ontwikkelen van meubels. Wij hebben een ruim assortiment voor u om uit te kiezen en kijken nergens van op. Zo is het voor ons gemakkelijk om aan de wensen van klanten te voldoen en/of er op in te spelen.
+                            Ook kunnen wij op deze manier een band creëren met klanten en daardoor hopen op samenwerking op lange termijn.
+
                         </p>
                     </div>
+                <div class="row">
                     <div class="col-md-6">
-                        <h3>Dichtbij en flexibel</h3>
                         <p>
-                            Rijschool Durmus Dag is gevestigd in Vleuten en de cursisten komen uit omringende plaatsen, zoals Utrecht, Maarssen, De Meern, Breukelen, Leidsche Rijn, IJsselstein, Houten, Vianen, De Bilt, Bilthoven, Zeist, Bunnik, Groenekan, Maartensdijk en Nieuwegein.
-                            Ik haal je voor elke les op waar dat voor jou handig is: thuis, op werk, bij je studie of van het station. En uiteraard word je ook weer afgezet waar jij dat graag wilt. <br><br> Ook de lestijden
-                            zijn erg flexibel. De lessen beginnen vroeg, zodat je eventueel kunt lessen voor je werk/studie begint. En als je op tijd de planning met me bespreekt heb je veel vrije keus in het moment van lessen.
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <h3>2 to DRIVE</h3>
-                        <p>
-                            Een rijbewijs al op je 17e? Dat kan tegenwoordig en dat is heel handig. Vanaf het moment dat je 16,5 jaar oud bent mag je rijlessen nemen en vanaf je 17e verjaardag kun je ook praktijkexamen doen. Tot je 18 bent mag je dan alleen rijden onder begeleiding
-                            van iemand met een rijbewijs.
+                            Bent u zich er van bewust dat u uw ideeën werkelijkheid kunt gaan maken, dan kunt u er bij ons voor zorgen dat uw inspiratie tot leven komt.
+                            Wij zijn telefonisch bereikbaar voor het inplannen van een afspraak waarbij u vrijblijvend advies kunt krijgen.
                         </p>
                     </div>
                 </div>
             </div>
             <div id="auto" class="gap"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Modellen</h2>
-                            <hr>
-                        </div>
+                <div class="col-md-12">
+                    <div class="center gap fade-down section-heading">
+                        <h2 class="main-title">Modellen</h2>
+                        <hr>
                     </div>
                 </div>
             </div>
+        </div>
             <a href="images/sultan.jpeg "class="swipebox">
                 <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/sultan.jpeg" alt="Bank">
             </a>
@@ -206,16 +195,29 @@
             <a href="images/28.jpg "class="swipebox">
                 <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/28.jpg" alt="Bank">
             </a>
-            <!-- <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(4).JPG" alt="Auto">
-            <img class="img-fluid col-md-4 col-sm-6 col-xs-12 auto-img" src="images/img/auto(12).JPG" alt="Auto"> -->
+            <a href="images/16.jpeg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/16.jpeg" alt="Bank">
+            </a>
+            <a href="images/20.jpeg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/20.jpeg" alt="Bank">
+            </a>
+            <a href="images/amsterdam.jpeg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/amsterdam.jpeg" alt="Bank">
+            </a>
+            <a href="images/arizona.jpeg "class="swipebox">
+                <img class="img-fluid col-md-3 col-sm-6 col-xs-12 auto-img" src="images/arizona.jpeg" alt="Bank">
+            </a>
 
             <!-- must stay! -->
             <div class="container-fluid">
-                <div class="row">
-
-                </div>
+                <div class="row"></div>
                 <!--/.row-->
                 <div class="gap"></div>
+                <div class="text-center">
+                    <a href="#">
+                        <input class="btn btn-outlined btn-primary" value="Toon alles" readonly/>
+                    </a>
+                </div>
             </div>
         </section>
         <section id="testimonial-carousel" class="divider-section">
@@ -240,28 +242,27 @@
                             <!-- Carousel Slides / Quotes -->
                             <div class="carousel-inner">
                             <?php include 'dbc.php';
-                                //$dbc = new PDO("mysql:host=db.durmusdag.nl;dbname=md280038db240313", "md280038db240313", "TJLX2qCN");
-                                // $dbc = new PDO("mysql:host=localhost;dbname=rijschool", "root", "");
+                                // $dbc = new PDO("mysql:host=ftp.asyameubelen.nl; dbname=asyameube", "asyameube", "x3v%hC5y");
                                 // $dbc->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                                //
-                                // $sth = $dbc->prepare("SELECT name, message, date FROM guestbook ORDER BY id DESC");
-                                // $sth->execute();
-                                // $res = $sth->fetchAll(PDO::FETCH_ASSOC);
 
-                                //foreach($res as $key => $value) : ?>
-                            <div class="item <?php //echo $key === 0 ? "active" : null ?>">
+                                $sth = $dbc->prepare("SELECT name, message, date FROM review ORDER BY id DESC");
+                                $sth->execute();
+                                $res = $sth->fetchAll(PDO::FETCH_ASSOC);
+
+                                foreach($res as $key => $value) : ?>
+                            <div class="item <?php echo $key === 0 ? "active" : null ?>">
                                 <blockquote>
                                     <div class="row">
                                         <div class="col-md-2 col-sm-1 text-center"></div>
                                         <div class="col-sm-10 col-md-8">
-                                            <p><?php //echo $value['message']; ?></p>
-                                            <small><?php //echo $value['name'] . "<br> " . $value['date']; ?></small>
+                                            <p><?php echo $value['message']; ?></p>
+                                            <small><?php echo $value['name'] . "<br>" .  $value['date']; ?></small>
                                         </div>
                                         <div class=" col-md-2-sm-1 text-center"></div>
                                     </div>
                                 </blockquote>
                             </div>
-                            <?php // endforeach; ?>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                 </div>
@@ -283,11 +284,11 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div id="reviewMessage"></div>
                     <div class="col-md-10 col-md-offset-1 fade-up">
-                        <form class="" action="gastenboek.php" method="post">
-                            <input class="form-control gastenboek-form" max="30" required type="text" name="name" value="" placeholder="Naam *"><br>
-                            <input class="form-control gastenboek-form" required type="text" name="email" placeholder="Email *"><br>
-                            <textarea class="form-control gastenboek-form g-textarea" required type="text" name="message" value="" placeholder="Bericht"></textarea><br>
+                        <form id="reviewForm" class="" action="gastenboek.php" method="post">
+                            <input id="reviewName" style="margin-bottom: 15px;" class="form-control gastenboek-form" max="30" required type="text" name="name" value="" placeholder="Naam *">
+                            <textarea id="reviewMessageInput" class="form-control gastenboek-form g-textarea" required type="text" name="message" placeholder="Uw bericht"></textarea><br>
                             <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Verzend" />
                         </form>
                     </div>
@@ -313,8 +314,8 @@
                     <div class="col-md-4 col-sm-4 col-xs-6">
                         <div class="center bounce-in">
                             <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
-                            <h1><span class="counter">1257500</span> +</h1>
-                            <h3>afgelegde kilometers</h3>
+                            <h1><span class="counter">100</span> +</h1>
+                            <h3>Verschillende banken</h3>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
@@ -329,15 +330,61 @@
             <div class="gap"></div>
         </section>
 
-
         <section id="tarieven" class="white">
             <div class="container">
                 <div class="center gap fade-down section-heading">
-                    <h2 class="main-title">Tarieven</h2>
+                    <h2 class="main-title">Onderhoud</h2>
                     <hr>
                 </div>
                 <div class="gap"></div>
-                hier komt nog tekst
+                <div class="col-md-6">
+                    <h3>Onderhoud</h3>
+                    <p>
+                        Vanwege het feit dat Asyameubelen enkel meubelen van hoge kwaliteit levert,
+                        zijn onze producten dan ook opgewassen tegen vunzigheden. Wij stellen onze klanten graag tevreden
+                        en hebben dan ook een overzicht samengesteld waarin wordt verteld hoe u uw meubilair het best kunt onderhouden.
+                        Hieronder de manier die wij hanteren om bankstellen van velours te reinigen en onderhouden zonder het meubilair
+                        te beschadigen.
+                    </p>
+                    <p>
+                        Let op:
+                        <i>
+                            De banken die wij maken zijn elk van een verschillende stof en behoren dan ook elk op een
+                            andere manier gereinigd  te worden. Voor de velours banken hebben wij hieronder enkele handige tips.
+                        </i>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Veloursstoffen algemeen</h3>
+                    <p>
+                        De weefsels die bij velours voorkomen, worden poolweefsels genoemd. Hoe dat weefsel
+                        is samengesteld gaat uiteindelijk een effect creëren. Velours is een stof dat een schaduwachtig
+                        effect kan creëren of één waarbij het lijkt dat de stof geplet is.
+                        Desalniettemin doet dat de kwaliteit van de stof niet tekort. Wel kan het voorkomen dat door
+                        lichaamswarmte en/of druk, de stof schijnvlekken kan laten ontstaan. Deze zijn overigens
+                        makkelijk te verwijderen met een vochtig doekje. Het is de bedoeling dat het vochtige doekje
+                        een nacht op de plek van de vlek ligt om er vervolgens over heen te borstelen, in de richting
+                        van de poolweefsels.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <h3>Velours en onderhouden</h3>
+                    <p>
+                        Met water is het schoonmaken van een velours bank goed te doen. Een vochtig doekje en wrijven
+                        in de richting van de poolweefsels, doet zijn werk al. Om de vocht op de schoongemaakte de plek
+                        weer op te nemen is het handig om na het schoonmaken, er met een keukendoek of keukenrol, over heen te gaan.
+                        (In onze showroom bieden we de mogelijkheid om te laten zien hoe wij een vlek uit velours krijgen, waarna
+                        er niets meer van te zien valt).
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <h3>Handige weetjes</h3>
+                    <ul>
+                        <li>Voor een optimaal resultaat, met de poolweefsels mee deppen, NIET ertegen. Wanneer u dit wel doet kunt u ervoor zorgen dat er stof tussen het velour gaat zitten en de vlek wel degelijk te zien zal zijn.</li>
+                        <li>Als u de rug- en zitkussens minimaal 1 keer per week omdraait, zorgt u ervoor dat u de duurzaamheid van de kussens stimuleert.</li>
+                        <li>Ook is het belangrijk dat u GEEN schoonmaak- of reinigingsmiddelen gebruikt wanneer u de bank wilt schoonmaken. Producten die chemicaliën bevatten zorgen er namelijk voor dat de vlek niet verdwijnt maar verkleurt.</li>
+                    </ul>
+                </div>
                 <div class="gap"></div>
             </div>
         </section>
@@ -361,9 +408,10 @@
                         <p><span class=""></span>Asya meubelen<br/>
                             <span class=""></span>Culemborg, Zuid-Holland<br/>
                             <span class=""></span> 4104AR Culemborg <br><br>
-                            <span class=""></span><i class="fa fa-phone"></i> 0345 505 948 <br>
+                            <span class=""></span><i class="fa fa-phone"></i><a href="tel://31-648-790-774">+31 648790774</a> <b>of</b><br>
+                            <span class=""></span><i class="fa fa-phone"></i><a href="tel://31-681-888-148">+31 681888148</a><br><br>
                             <span class=""></span>hs-meubelen@live.nl <br/>
-                            <span class=""></span>KVK: 56422644 <br/><br>
+                            <span class=""></span>KVK: 56422644 <br/>
                             <h3>Openingstijden</h3>
                             <span><b class="openingstijden">Maandag:  </b> 08.00 - 18.30</span><br>
                             <span><b class="openingstijden">Dinsdag:  </b> 08.00 - 18.30</span><br>
@@ -402,7 +450,9 @@
                 <div class="row">
                     <div class="col-md-3  col-sm-4 col-xs-12 about-us-widget">
                         <h4>Over Asya meubelen</h4>
-                        <p>Directe verkoop uit onze eigen meubel fabriek in Culemborg met oppervlakte van 1800 vierkante meter. Alle producten kunnen gelijk meegenomen worden.</p>
+                        <p> Directe verkoop uit onze eigen meubel fabriek in Culemborg met oppervlakte van 1800 vierkante meter.
+                            Alle producten kunnen gelijk meegenomen worden.
+                        </p>
                     </div>
                     <!--/.col-md-3-->
 
